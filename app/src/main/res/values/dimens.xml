@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text1">24sp</dimen>
+    <dimen name="marginBig">180dp</dimen>
+    <dimen name="marginBigger">370dp</dimen>
+    <dimen name="margin">28dp</dimen>
+    <dimen name="marginTop">48dp</dimen>
+    <dimen name="viewW">160dp</dimen>
+    <dimen name="viewH">360dp</dimen>
+    <dimen name="margBot">14dp</dimen>
+    <dimen name="text2">12sp</dimen>
+    <dimen name="txtV3">26dp</dimen>
+    <dimen name="imgV2wid">200dp</dimen>
+    <dimen name="imgV2MLeft">46dp</dimen>
+    <dimen name="lastImgViwPadd">12dp</dimen>
+    <dimen name="lastImgViwMarg">37dp</dimen>
+</resources>

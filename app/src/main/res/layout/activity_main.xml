@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.example.android.fadohilario.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/marginBigger"
+        android:layout_marginEnd="@dimen/marginBig"
+        android:layout_marginRight="@dimen/marginBig"
+        android:src="@drawable/fh"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/marginTop"
+        android:text="@string/text"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/text1"
+        android:id="@+id/textView" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="@dimen/viewW"
+        android:layout_height="@dimen/viewH"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3"
+        android:background="@color/textColor" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginBottom="@dimen/margBot"
+        android:autoLink="web|email"
+        android:fontFamily="monospace"
+        android:text="@string/Contact"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/view"
+        android:layout_marginBottom="@dimen/txtV3"
+        android:fontFamily="monospace"
+        android:text="@string/Address"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="@dimen/imgV2wid"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/imgV2MLeft"
+        android:layout_marginStart="@dimen/imgV2MLeft"
+        android:layout_marginTop="@dimen/margBot"
+        android:src="@drawable/fh1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="@dimen/margBot"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginBottom="@dimen/marginTop"
+        android:src="@drawable/fh7"
+        android:id="@+id/imageView3" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/view"
+        android:paddingRight="@dimen/lastImgViwPadd"
+        android:layout_marginLeft="@dimen/lastImgViwMarg"
+        android:layout_marginStart="@dimen/lastImgViwMarg"
+        android:layout_marginTop="@dimen/viewW"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:src="@drawable/fh4" />
+
+
+
+
+</RelativeLayout>
